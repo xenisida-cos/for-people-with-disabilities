@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 0;
+    margin: 1em 0 0;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin: 2em;
+}
+
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, button {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055a5;
+}
+
+footer {
+    background-color: #003366;
+    padding: 1em;
+    color: #fff;
+    align-items: center;
+}
+
+#about-event h3 {
+    color: #003366;
+    margin-top: 2em;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 0.3em;
+}
+
+.artists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.artists article {
+    background: #fff;
+    border-top: 4px solid #003366;
+    border-radius: 6px;
+    padding: 1em 1.2em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.artists h4 {
+    margin: 0 0 0.5em;
+    color: #003366;
+    font-size: 1.15em;
+}
+
+.artists p {
+    margin: 0;
+}
+
+.program {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+}
+
+.program li {
+    padding: 0.6em 0 0.6em 1em;
+    border-left: 3px solid #0055a5;
+    margin-bottom: 0.5em;
+    background: #fff;
+}
